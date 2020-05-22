@@ -1,0 +1,73 @@
+body {
+    max-width: 250px;
+    max-height: auto;
+    
+}
+input {
+    font-size: 30px;
+}
+form {
+    padding: 10px;
+    background-color: lightslategrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "reset result result result" "one two three plus" "four five six minus" "seven eight nine multiply" "zero zero equal divide";
+}
+#reset {
+    background-color: tomato;
+    grid-area: reset;
+}
+#result {
+    grid-area: result;
+}
+#one {
+    grid-area: one;
+}
+#two {
+    grid-area: two;
+}
+#three {
+    grid-area: three;
+}
+#four {
+    grid-area: four;
+}
+#five {
+    grid-area: five;
+}
+#six {
+    grid-area: six;
+}
+#seven {
+    grid-area: seven;
+}
+#eight {
+    grid-area: eight;
+}
+#nine {
+    grid-area: nine;
+}
+#zero {
+    grid-area: zero;
+}
+#plus {
+    background-color: lightcoral;
+    grid-area: plus;
+}
+#minus {
+    background-color: lightcoral;
+    grid-area: minus;
+}
+#multiply {
+    background-color: lightcoral;
+    grid-area: multiply;
+}
+#divide {
+    background-color: lightcoral;
+    grid-area: divide;
+}
+#equal {
+    background-color: lightcoral;
+    grid-area: equal;
+}
