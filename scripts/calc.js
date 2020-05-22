@@ -47,11 +47,11 @@ calc.minus.addEventListener('click', function() {
 }, false)
 
 calc.multiply.addEventListener('click', function() {
-    calc.result.value += 'x';
+    calc.result.value += '*';
 }, false)
 
 calc.divide.addEventListener('click', function() {
-    calc.result.value += '÷';
+    calc.result.value += '/';
 }, false)
 
 calc.reset.addEventListener('click', function() {
