@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/styles.css">
         <title> PETS</title>
     </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="">Про нас</a></li>
-            <li><a href="">Клиентам</a></li>
-            <li><a href="">Контакты</a></li>
+        <ul id="nav">
+            <li><a href="/about_us">Про нас</a></li>
+            <li><a href="clietes">Клиентам</a></li>
+            <li><a href="contacts">Контакты</a></li>
         </ul>
-        <form>
-            <input type="search" name="q" placeholder="Поиск...">
-        </form>
+        <form id="search">
+                <input type="search" name="q" placeholder="Поиск...">
+                </form>
     </nav>
-    <hr>
-    <header>PETS.</header><img src="pets..jpg" alt="Dog&Cat" height="" width="">
+    
+        <header><b id="header">PETS.</b>
+        <img id="imgh" src="images/pets..jpg" alt="Dog&Cat" height="100" width="150">
+    </header>
     <article>
-        <section>
+        <section class="container1">
             <h1><b>Кого завести если есть собака и кот?</b></h1>
-        <img src="dragon.jpg" alt="Little dragon" height="" width="">
-        <p>Ну почти...</p>
+        <img id="litdr" src="images/dragon.jpg" alt="Little dragon" height="200" width="300">
+        <p id="dragon">Ну почти...</p>
         </section>
-        <section>
-            <p><b>Аксалотль</b> - удивительное животное, которое представляет собой неотоническую личиночную форму некоторых видов амбистом (хвостатых земноводных). Его также называют "водный дракон"</p>
+        <section class="container2">
+            <section id="text">
+                <p id="inf"><b>Аксалотль</b> - удивительное животное, которое представляет собой неотоническую личиночную форму некоторых видов амбистом (хвостатых земноводных). Его также называют "водный дракон"</p>
             <br>
-            <ul>
+            <ul id="info">
                 <li>Длина тела 15-30 см.</li>
                 <li>При хорошем уходе живут 15-20 лет.</li>
                 <li>Необходим аквариум от 40 литров, температура воды 13-20 градусов.</li>
                 <li>Питается зоопланктоном, водными насекомыми и мелкими видами рыб(переваривает пищу 2-3 дня).</li>
                 <li>Способны отращивать новые конечности, жабры, хвост и другие органы взамен утраченых.</li>
             </ul>
-            <img src="aksolotl.jpg" alt="Aksolotl-water dragon" height="" width="">
+            </section>
+            <section id="picture">
+            <img id="aksolotl" src="images/aksolotl.jpg" alt="Aksolotl-water dragon" height="250" width="300">
             <br>
-            <a href="https://google.com/">Детальнее о уходе</a>
+            <a id="det" href="https://google.com/">Детальнее о уходе</a>
+            </section>
         </section>
-        <section>
-            <p>Выбери своего дракона всего за <b>400 грн.</b></p>
-            <ul>
+        <section class="container3">
+            <section class="order">
+                <p id="choice">Выбери своего дракона всего за <b>400 грн.</b>
+                </p>
+            <ul id="color">
                 <li>Черный</li>
                 <li>Бурый</li>
                 <li>Белый</li>
             </ul>
-            <a href="">Заказать</a>
-            <br> <img src="axolotl-3.jpg" alt="Tipes of aksolotl" height="" width=""> 
-            <table >
-                <tr>
-                    <th>Контакты:</th>
-                </tr>
-                <tr>
-                    <td>г.Киев</td>
-                </tr>
-                <tr>
-                    <td>pets@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>+38(044)33-33-333<br>
-                    +380(067)111-11-11 (Viber)</td>
-                </tr>
-            </table>
-                  
+            <form id="order">
+                <input type="button" name="order" value="Заказать">
+                </form>
+            
+            </section>
+        <table id="contacts">
+            <tr>
+                <th>Контакты:</th>
+            </tr>
+            <tr>
+                <td>&#9673 г.Киев</td>
+            </tr>
+            <tr>
+                <td>&#9993 pets@gmail.com</td>
+            </tr>
+            <tr>
+                <td>&#9742 +38(044)33-33-333,<br>
+                 +380(067)111-11-11 (Viber)</td>
+            </tr>
+        </table>
+            <img id="trio" src="images/axolotl-3.jpg" alt="Tipes of aksolotl" height="250px" width="100%">                 
         </section>
     </article>
     <footer>
