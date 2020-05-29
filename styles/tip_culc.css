@@ -1,0 +1,50 @@
+body {
+    max-width: 500px;
+    max-height: auto;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgb(209, 191, 169);
+    box-sizing: border-box;
+}
+form {
+    background-color: rgb(148, 160, 172);
+    display: grid;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+label {
+    font-size: 18px
+}
+input {
+    padding: 5px;
+    border: 1px solid #111;
+    padding: 12px;
+    font-size: 18px
+}
+
+#total {
+    background-color: lightyellow;
+    display: flexbox;
+    box-sizing: content-box;
+    align-self: center;
+    border: 2px solid #111;
+    border-radius: 5px;
+    width: 100%;
+}
+#table {
+    display: flexbox;
+    width: 100%;
+    box-sizing: content-box;
+    
+    font-size: 18px;
+    
+}
+#tipn, #totaln {
+    text-align: end;
+}

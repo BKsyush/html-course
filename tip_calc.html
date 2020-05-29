@@ -1,0 +1,35 @@
+<html>
+<title>Tip Calculator</title>
+<link rel="stylesheet" href="styles/tip_culc.css">  
+  
+<body>
+<section id="tip_culc">
+    <form >
+        <label for="bill">Bill</label>
+        <input id="bill" type="number" name="bill" placeholder="$">
+    
+        <label for="tip">Tip, %</label>
+        <input id="tip" type="number" name="tip" placeholder="%">
+     
+        <label for="people">Divide by</label>
+        <input id="people" type="number" name="people" placeholder="number of people">
+     
+        <input id="calculate" type="button" value="Calculate">
+    </form>
+</section>
+<section id="total" hidden>
+    <table id="table">
+           <tr>
+            <td>Tip per person, $</td>
+            <td id="tipn">0.00</td>
+        </tr>
+        <tr>
+            <td>Total per person, $</td>
+            <td id="totaln">0.00</td>
+        </tr>
+    </table>
+</section>
+    
+</body>
+    <script src="scripts/tip_culc.js"></script>
+</html>
